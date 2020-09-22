@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  puppeteer:
+    container_name: puppeteer_sample
+    build: ./node
+    tty: true
+    volumes:
+      - ./app:/app
